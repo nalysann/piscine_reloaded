@@ -19,7 +19,10 @@ SRC = srcs/ft_display_file.c \
 
 INC_DIR = includes
 
-OBJ = $(SRC:.c=.o)
+OBJ = ft_display_file.o \
+      ft_putchar_fd.o \
+      ft_putstr_fd.o \
+      main.o
 
 CC = gcc
 
